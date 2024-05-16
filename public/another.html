@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NCLEX Test Interface</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    .options {
+      list-style-type: none;
+      padding: 0;
+    }
+    .options li {
+      margin-bottom: 10px;
+    }
+    .explanation {
+      background-color: #f9f9f9;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    .correct {
+      color: green;
+    }
+    .incorrect {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="question">
+      <h2>The nurse is performing open endotracheal suctioning for a client with a tracheostomy tube. Which of the following actions by the nurse are appropriate? Select all that apply.</h2>
+      <ul class="options">
+        <li><input type="checkbox" id="option1"> <label for="option1">Administers 100% oxygen prior to suctioning the client</label></li>
+        <li><input type="checkbox" id="option2"> <label for="option2">Applies suction while withdrawing the catheter from the airway</label></li>
+        <li><input type="checkbox" id="option3"> <label for="option3">Instills sterile normal saline into the tracheostomy prior to suctioning</label></li>
+        <li><input type="checkbox" id="option4"> <label for="option4">Limits suctioning to 20 seconds during each suction pass</label></li>
+        <li><input type="checkbox" id="option5"> <label for="option5">Uses sterile gloves and technique throughout the procedure</label></li>
+      </ul>
+    </div>
+    <div class="explanation">
+      <h3>Explanation</h3>
+      <p><span class="correct">Administers 100% oxygen prior to suctioning the client</span>: Preoxygenate with 100% oxygen to reduce the risk of hypoxemia.</p>
+      <p><span class="correct">Applies suction while withdrawing the catheter from the airway</span>: Apply suction only while withdrawing to minimize trauma and prevent airway collapse.</p>
+      <p><span class="incorrect">Instills sterile normal saline into the tracheostomy prior to suctioning</span>: No longer supported by evidence, increases the risk of infection.</p>
+      <p><span class="incorrect">Limits suctioning to 20 seconds during each suction pass</span>: Should be limited to 10 seconds or less to reduce the risk of hypoxemia and trauma.</p>
+      <p><span class="correct">Uses sterile gloves and technique throughout the procedure</span>: Essential to prevent infection.</p>
+    </div>
+  </div>
+</body>
+</html>
